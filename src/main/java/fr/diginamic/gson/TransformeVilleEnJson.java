@@ -6,7 +6,7 @@ public class TransformeVilleEnJson {
     public static void main(String[] args) {
         Gson gson = new Gson();
 
-        Personne p = new Personne("Durand", 25);
+        Personne p = new Personne("Abdouramane", 25);
 
         String json = gson.toJson(p);
 
