@@ -12,9 +12,18 @@
 
     <name>Maven project</name>
     <description>Projet simple Maven</description>
+    <developers>
+        <developer>
+            <id>AS</id>
+            <name>Abdouramane SIDIBE</name>
+            <roles>
+                <role>CEO</role>
+            </roles>
+        </developer>
+    </developers>
+
     <organization>
         <name>The New8ies</name>
-
     </organization>
 
     <properties>
