@@ -1,0 +1,25 @@
+package fr.diginamic.gson;
+
+public class Personne {
+    private String nom;
+    private int age;
+
+    public Personne(String nom, int age) {
+        this.nom = nom;
+        this.age = age;
+    }
+
+    public String getNom() {
+        return nom;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    @Override
+    public String toString() {
+        return "nom='" + nom +
+                ", age=" + age ;
+    }
+}
